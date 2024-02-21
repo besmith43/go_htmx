@@ -4,5 +4,3 @@ build:
 
 run:
 	go run cmd/go_htmx/main.go
-
-all: run
