@@ -7,6 +7,10 @@ import (
 	"github.com/besmith43/go_htmx/internal/routes"
 )
 
+/*
+	multiline comments are the same as C and C# too
+*/
+
 func main() {
 	router := routes.NewRouter()
 

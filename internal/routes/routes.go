@@ -5,6 +5,9 @@ import (
 	"net/http"
 )
 
+// for public funcs and vars use a capital letter to start the name
+// for private funcs and vars use a lower case letter to start the name
+
 func NewRouter() http.Handler {
 	mux := http.NewServeMux()
 
